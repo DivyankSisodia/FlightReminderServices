@@ -24,9 +24,9 @@ const setupAndStart = () => {
         //     'Hey, How are you! This is a test email from Flight Reminder Service.',
         // )
 
-        cron.schedule('*/1 * * * *', () => {
-            console.log('Running a task every one minutes');
-        })
+        // cron.schedule('*/1 * * * *', () => {
+        //     console.log('Running a task every one minutes');
+        // })
     });
 }
 
